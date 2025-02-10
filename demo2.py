@@ -1,4 +1,4 @@
 sum0=0
 for i in range(0,10):
     sum0 += i
-print(sum0+100)
+print("yakshi")
