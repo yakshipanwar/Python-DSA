@@ -1,13 +1,13 @@
 def getdata():
     a = []
-    arr = int(input())
+    arr = int(input("Number of element of array: "))
     for i in range(arr):
         a.append(int(input()))
     return a
 
 def getdata1():
     b = []
-    arr1 = int(input())
+    arr1 = int(input("number of element of array: "))
     for i in range(arr1):
         b.append(int(input()))
     return b
