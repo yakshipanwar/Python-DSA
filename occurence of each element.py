@@ -2,7 +2,7 @@ def getdata():
     a= []
     arr = int(input())
     for i in range(arr):
-        a.append(int(input()))
+        a.append(int(input("enter the number of element: " )))
     return a
 
 def check():
