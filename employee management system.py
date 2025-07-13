@@ -58,14 +58,14 @@ class office:
 
     def salary(self):
         for emp_name, emp_info in self.b.items():
-            if emp_info["Grade"] == "A":
-                 print("salary : 100000")
-            elif emp_info["Grade"] == "B":
-                 print("salary : 80000")
-            elif emp_info["Grade"] == "C":
-                 print("salary : 60000")
-            elif emp_info["Grade"] == "D":
-                 print("salary : 20000")
+            if emp_info["Level"] == "A":
+                 print(f"salary of {emp_name}: 100000")
+            elif emp_info["Level"] == "B":
+                 print("salary of {emp_name}: 80000")
+            elif emp_info["Level"] == "C":
+                 print("salary of {emp_name}: 60000")
+            elif emp_info["Level"] == "D":
+                 print("salary of {emp_name}: 20000")
         return ""
          
 
